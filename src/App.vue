@@ -1,5 +1,5 @@
 <template>
-  <div class="container  max-w-full  mx-0 p-0 my-0"><!---->
+  <!--<div class="container  max-w-full  mx-0 p-0 my-0">
     <div class="flex justify-around items-center h-20 border-b-2 border-gray-300" id="nav">
       <router-link class="" to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
@@ -9,8 +9,8 @@
       <router-link to="/robotica">Robótica</router-link> |
       <router-link to="/contacto">Contacto</router-link>
     </div>
-  </div>
-  <router-view/> <!--Esto permite que se vea en todos lados-->
+  </div>-->
+  <router-view/> 
 </template>
 
 <style lang="scss">
